@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Student Management</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+<div class="container">
+  <h1>Student Management</h1>
+
+  <form id="student-form">
+    <input type="hidden" id="sid" />
+    <input id="name" placeholder="Name" required />
+    <input id="email" placeholder="Email" />
+    <input id="major" placeholder="Major" />
+    <button type="submit">Save</button>
+    <button id="cancel" type="button">Cancel</button>
+  </form>
+
+  <div class="search">
+    <input id="q" placeholder="Search by name or email" />
+    <button id="searchBtn">Search</button>
+    <button id="refreshBtn">Refresh</button>
+  </div>
+
+  <table id="students-table">
+    <thead><tr><th>ID</th><th>Name</th><th>Email</th><th>Major</th><th>Actions</th></tr></thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>

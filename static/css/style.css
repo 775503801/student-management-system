@@ -1,0 +1,7 @@
+body{font-family: Arial, Helvetica, sans-serif;background:#f6f8fa;padding:20px}
+.container{max-width:900px;margin:0 auto;background:#fff;padding:20px;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.05)}
+form#student-form input{padding:8px;margin:6px 4px}
+form#student-form button{padding:8px;margin:6px 4px}
+.search{margin:12px 0}
+table{width:100%;border-collapse:collapse}
+th,td{border:1px solid #e2e8f0;padding:8px;text-align:left}
