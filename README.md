@@ -37,7 +37,3 @@ Designed to be easy to understand and deploy.
 - `static/css/style.css` : Basic styling.
 - `static/js/app.js` : Frontend JS for interacting with the API.
 - `students.db` : (created at runtime) SQLite DB file.
-
-
-## License
-MIT
