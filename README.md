@@ -1,7 +1,7 @@
 # Student Management System (Flask + SQLite)
 
 A simple, ready-to-run Student Management web app built with Flask and SQLite.
-Designed to be easy to understand and deploy. Good as a starter project to push to GitHub.
+Designed to be easy to understand and deploy. 
 
 ## Features
 - Add / Edit / Delete students
@@ -38,17 +38,6 @@ Designed to be easy to understand and deploy. Good as a starter project to push 
 - `static/js/app.js` : Frontend JS for interacting with the API.
 - `students.db` : (created at runtime) SQLite DB file.
 
-## How to push to GitHub
-1. Create a new repository on GitHub (e.g., `student-management-system`).
-2. Run:
-   ```
-   git init
-   git add .
-   git commit -m "Initial commit - student management system"
-   git remote add origin https://github.com/USERNAME/student-management-system.git
-   git branch -M main
-   git push -u origin main
-   ```
 
 ## License
 MIT
